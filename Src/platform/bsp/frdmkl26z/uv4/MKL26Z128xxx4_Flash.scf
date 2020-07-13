@@ -1,0 +1,28 @@
+#! armcc -E
+
+#define INTFLASH_END_ADDR       0x00800000
+#define INTFLASH_BASE_ADDR      0x00000000
+#define INTFLASH_SIZE           (INTFLASH_END_ADDR - INTFLASH_BASE_ADDR)
+#define INTRAM_BASE_ADDR        0x1FFFF000
+#define INTRAM_END_ADDR         0x20003000
+#define INTRAM_SIZE             (INTRAM_END_ADDR - INTRAM_BASE_ADDR)
+#define MY_ALIGN(address, alignment) ((address + (alignment-1)) AND ~(alignment-1))
+
+
+LOAD_REGION_INTFLASH INTFLASH_BASE_ADDR INTFLASH_SIZE{    ; load region size_region
+
+  ER_IROM1 INTFLASH_BASE_ADDR INTFLASH_SIZE{  ; load address = execution address
+   *.o (RESET, +First)
+   * (InRoot$$Sections)
+   * (+RO)
+  }
+
+  USB_BDT MY_ALIGN(INTRAM_BASE_ADDR, 512) {
+   * (.usb_bdt)
+  }
+
+  RW_IRAM ImageLimit(USB_BDT)  {  ; RW data
+   * (+RW +ZI)
+  }
+}
+

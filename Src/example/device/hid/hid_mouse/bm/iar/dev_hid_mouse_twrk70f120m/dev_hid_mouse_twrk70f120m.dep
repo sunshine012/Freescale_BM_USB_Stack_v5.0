@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2900259240</fileChecksum>
+  <configuration>
+    <name>Int Flash Debug</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Int Flash Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Int Flash Release\dev_hid_mouse.out</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\cstartup_M.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\printf.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\poll.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\mem_util.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmsem.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmmsgq.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmisr.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmevent.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_usb.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_sci.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_pit.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_init.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\sci.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\wdt_kinetis.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_isr.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\printf.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\poll.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\dev_hid_mouse_twrk70f120m.pbd</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\mem_util.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmsem.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmmsgq.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmisr.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\bmevent.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_usb.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_device_stack_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_device_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\adapter.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\adapter_bm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usbd.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_opt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_class.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\adapter_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_desc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\MK70FN1M0_DEV_Flash.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\low_level_init.c</file>
+      <file>$PROJ_DIR$\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\mouse.h</file>
+      <file>$PROJ_DIR$\..\..\..\mouse.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\cstartup_M.s</file>
+      <file>$PROJ_DIR$\..\..\..\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\..\..\..\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\arch\cortex_m\nvic.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\arch\cortex_m\nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\bsp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\derivative.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\main_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\wdt_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\wdt_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\init_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\serial\sci.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\hidef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\pit_delay.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\pit_delay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\rtc_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\rtc_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\MK70F12.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_pit.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_isr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_usb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_sci.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_pit.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_isr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmevent.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmevent.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmmsgq.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmmsgq.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmsem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmsem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmisr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\mem_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\poll.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\compiler.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\adapter_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_error.h</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\nvic.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\init_gpio.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\pit_delay.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\rtc_kinetis.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\main_kinetis.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usb_class_hid.h</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\mouse.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\low_level_init.o</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_sci.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_pit.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_isr.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\soc_init.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\wdt_kinetis.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\sci.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\rtc_kinetis.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\pit_delay.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\main_kinetis.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\init_gpio.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\nvic.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\usb_descriptor.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\mouse.pbi</file>
+      <file>$PROJ_DIR$\Int Flash Release\obj\low_level_init.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Int Flash Release\dev_hid_mouse.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 43 8 7 6 5 1 90 96 93 4 95 88 91 3 2 92 13 12 15 11 10 9 89 14 33 34 25 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\low_level_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\mouse.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 29 35 30 40 86 31 41 85 72 65 71 37 42 38 36 87 28 46 50 94 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 29 35 30 40 86 31 41 85 72 65 71 37 42 38 36 87 28 46 50 94 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\usb_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 35 30 40 86 31 41 85 72 65 71 37 42 38 36 87 28 50 94 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 35 30 40 86 31 41 85 72 65 71 37 42 38 36 87 28 50 94 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\arch\cortex_m\nvic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\main_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71 53 54 60 32 27 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71 53 54 60 32 27 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\wdt_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71 54 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71 54 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\init_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 45 53 54 65 72 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 45 53 54 65 72 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\serial\sci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\pit_delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 45 72 65 71 73 74 54 62 30 40 86 31 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 45 72 65 71 73 74 54 62 30 40 86 31 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\rtc_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71 45 54 53 73 74 64 30 40 86 31 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71 45 54 53 73 74 64 30 40 86 31 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_pit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_isr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71 54 73 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71 54 73 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_usb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 72 65 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 72 65 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_sci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmevent.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmmsgq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 78 31 86 85 72 65 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 78 31 86 85 72 65 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmsem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmisr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 74 72 65 71 54 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 74 72 65 71 54 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\mem_util.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31 41 86 85 72 65 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 41 86 85 72 65 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\poll.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\printf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Int Ram Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\sci.c</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\poll.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_init.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmmsgq.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_pit.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\dev_hid_mouse.out</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmsem.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_usb.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\mem_util.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\printf.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\pit_delay.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\mouse.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\sci.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmsem.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\main_kinetis.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\common\MK70F12.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\rtc_kinetis.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\mem_util.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\nvic.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\low_level_init.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_pit.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_init.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmevent.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\usb_descriptor.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\mouse.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmisr.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\pit_delay.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\poll.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\rtc_kinetis.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\sci.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_isr.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmmsgq.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmisr.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\low_level_init.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_isr.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\wdt_kinetis.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\init_gpio.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\init_gpio.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_sci.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_sci.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\soc_usb.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\printf.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\cstartup_M.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\nvic.o</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\main_kinetis.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\wdt_kinetis.pbi</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\bmevent.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\low_level_init.c</file>
+      <file>$PROJ_DIR$\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\mouse.h</file>
+      <file>$PROJ_DIR$\..\..\..\mouse.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\cstartup_M.s</file>
+      <file>$PROJ_DIR$\..\..\..\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\..\..\..\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\arch\cortex_m\nvic.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\bsp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\derivative.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\main_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\wdt_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\init_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\serial\sci.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\pit_delay.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\rtc_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\MK70F12.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_pit.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_isr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_usb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_sci.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_isr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmevent.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmevent.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmmsgq.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmmsgq.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmsem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmsem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmisr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\mem_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\poll.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\printf.c</file>
+      <file>$PROJ_DIR$\Int Ram Debug\obj\dev_hid_mouse_twrk70f120m.pbd</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\sci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\low_level_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\mouse.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 61 65 22 0 24 23 14 21 13 34 5 19 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\iar\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\usb_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\arch\cortex_m\nvic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\main_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\common\kinetis\wdt_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\twrk70f120m\init_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 67 68 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\serial\sci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\pit_delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\bsp\peripheral\timer\rtc_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_pit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_isr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_usb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\platform\soc\k70\soc_sci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmevent.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmmsgq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmsem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\bmisr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82 81 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\mem_util.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\poll.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\os\bm\printf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Int Ram Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

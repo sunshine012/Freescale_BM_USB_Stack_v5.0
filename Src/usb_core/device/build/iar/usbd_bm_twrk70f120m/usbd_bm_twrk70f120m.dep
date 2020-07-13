@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2623970169</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\bmsem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\bmevent.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\poll.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\bmmsgq.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\adapter_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\adapter.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_bm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_bm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\hal\fsl_usb_khci_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MK70F120M\usb_device_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\usb_device_stack_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\bsp\twrk70f120m\usb_dev_bsp.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc_pstn.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\audio\usb_audio.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\audio\usb_audio.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc_pstn.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\common\usb_class.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\composite\usb_composite.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\common\usb_class_internal.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\composite\usb_composite.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_audio.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\hid\usb_hid.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\hid\usb_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_cdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_composite.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_phdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc_scsi.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc_scsi.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_usbprv.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\phdc\usb_phdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\phdc\usb_phdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_dev_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_dev_main.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev_misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_dev.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_dev.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_framework.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_framework.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\compiler.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_desc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_opt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_dev_bsp.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\hal\fsl_usb_ehci_hal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_hid.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_class.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\adapter_bm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_composite.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_cdc_pstn.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_msc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_audio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_cdc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_msc_scsi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_phdc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ehci_dev_main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\khci_dev.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ehci_interface.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\khci_interface.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_dev.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_framework.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\adapter_bm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_dev_bsp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_audio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_cdc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_cdc_pstn.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_class.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_composite.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_hid.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_msc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_msc_scsi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_phdc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ehci_dev_main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\khci_dev.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ehci_interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\khci_interface.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_dev.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\output\twrk70f120m.iar\debug\usbd\bm\usbd.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\platform\soc\k70\soc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\platform\soc\k70\soc_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\platform\soc\k70\MK70F12.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_bm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 4 52 7 50 102 104 103 1 3 2 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\bsp\twrk70f120m\usb_dev_bsp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 8 4 7 52 50 102 104 103</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc_pstn.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 26 16 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\audio\usb_audio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 23 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\common\usb_class.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 26 19 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\composite\usb_composite.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 27 31 22 28 23 29 26 30 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\hid\usb_hid.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 28 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc_scsi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 33 36 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 36 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\phdc\usb_phdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 21 31 30 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_dev_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 40 34 61 57 59 60 67 63 66 64 65 62 47 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 43 41 9 59 60 67 63 66 64 65 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\ehci_interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 52 56 50 51 54 4 11 47 49 40 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\khci_interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 52 56 50 51 54 4 11 43 47 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\usb_dev.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 105 5 8 4 7 52 50 102 104 103 56 51 54 55 53 11 47 49 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>IARCHIVE</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\bmsem.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\bmevent.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\poll.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\os\bm\bmmsgq.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\adapter_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\adapter.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_bm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_bm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\hal\fsl_usb_khci_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\MK70F120M\usb_device_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\include\usb_device_stack_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\bsp\twrk70f120m\usb_dev_bsp.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc_pstn.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\audio\usb_audio.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\audio\usb_audio.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc_pstn.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\common\usb_class.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\composite\usb_composite.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\common\usb_class_internal.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\composite\usb_composite.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_audio.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\hid\usb_hid.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\hid\usb_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_cdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_composite.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class_phdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\include\usb_class.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc_scsi.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc_scsi.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_usbprv.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\phdc\usb_phdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\classes\phdc\usb_phdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_dev_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_dev_main.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev_misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\ehci_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\khci_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_dev.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_dev.h</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_framework.c</file>
+      <file>$PROJ_DIR$\..\..\..\sources\controller\usb_framework.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\compiler.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_desc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_misc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_opt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\hal\fsl_usb_ehci_hal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\platform\soc\k70\soc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\platform\soc\k70\soc_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\platform\soc\k70\MK70F12.h</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_cdc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\usb.h</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_audio.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_dev_bsp.o</file>
+      <file>$PROJ_DIR$\Release\Obj\adapter_bm.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_cdc_pstn.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_class.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_composite.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_hid.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_msc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_msc_scsi.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_phdc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\ehci_dev_main.o</file>
+      <file>$PROJ_DIR$\Release\Obj\khci_dev.o</file>
+      <file>$PROJ_DIR$\Release\Obj\khci_interface.o</file>
+      <file>$PROJ_DIR$\Release\Obj\adapter_bm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_dev.o</file>
+      <file>$PROJ_DIR$\Release\Obj\ehci_interface.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_framework.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_audio.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_dev_bsp.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_cdc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_cdc_pstn.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_class.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_composite.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_hid.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_phdc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_msc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_msc_scsi.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ehci_dev_main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\khci_dev.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ehci_interface.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\khci_interface.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_dev.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\output\twrk70f120m.iar\release\usbd\bm\usbd.a</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\adapter\sources\bm\adapter_bm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 4 52 7 50 67 69 68 1 3 2 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 4 52 7 50 67 69 68 1 3 2 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\bsp\twrk70f120m\usb_dev_bsp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 8 4 7 52 50 67 69 68 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 8 4 7 52 50 67 69 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc_pstn.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 26 16 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\audio\usb_audio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 23 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 23 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\common\usb_class.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\cdc\usb_cdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 26 19 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\composite\usb_composite.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 27 31 22 28 23 29 26 30 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\hid\usb_hid.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 28 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc_scsi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 33 36 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\msd\usb_msc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 36 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\classes\phdc\usb_phdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 21 31 30 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\ehci\ehci_dev_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 40 34 60 57 58 59 66 62 65 63 64 61 47 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\khci\khci_dev.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 43 41 9 58 59 66 62 65 63 64 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\ehci_interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 52 56 50 51 54 4 11 47 49 40 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\khci_interface.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 52 56 50 51 54 4 11 43 47 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\usb_dev.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 47 49 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\sources\controller\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 71 5 8 4 7 52 50 67 69 68 56 51 54 55 53 11 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

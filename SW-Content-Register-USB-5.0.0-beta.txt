@@ -1,0 +1,16 @@
+Release Name: Bare Metal USB Stack	Version: 5.0.0-beta
+Package - USB Stack			Filename: Freescale_BM_USB_Stack_v5.0.exe
+					Via: freescale.com normal download
+USB					Description: Freescale USB stack. 
+					Author: FSL
+					License: Proprietary.  See LICENSE_LA_OPT_FSL_OPEN_3RD_PARTY_IP_v2, Appendix A, MQX RTOS Code.
+					Format: source code
+					Location: Freescale_BM_USB_Stack_v5.0/Src/usb_core, Freescale_BM_USB_Stack_v5.0/Src/example
+FatFs					Description: FatFs is a generic FAT file system module for small embedded systems. 
+					Version: R0.08b
+					Author:  Electroni Lives Mfg. by ChaN of Ageo city, Japan (hobbyist)
+					License: Open Source - FatFs License
+					Approved Open Source License: Yes
+					Format: source code
+					URL: http://elm-chan.org/fsw/ff/00index_e.html
+					Location: example/host/msd/msd_fatfs/bm/fatfs
