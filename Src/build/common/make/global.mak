@@ -8,9 +8,9 @@ HOSTENV = WINDOWS
 #----------------------------------------------------------
 # set default path to toolchain
 #----------------------------------------------------------
-# ifeq ($(TOOL),cw10)
-# TOOLCHAIN_ROOTDIR = C:/FREESC~1/CWMCUV~1.2
-# endif
+#ifeq ($(TOOL),cw10)
+#TOOLCHAIN_ROOTDIR = C:/FREESC~1/CWMCUV~1.7/CROSS_~1/ARM-NO~1
+#endif
 # ifeq ($(TOOL),uv4)
 # TOOLCHAIN_ROOTDIR = C:/KEIL
 # endif
@@ -23,6 +23,9 @@ HOSTENV = WINDOWS
 # ifeq ($(TOOL),gcc_cs)
 # TOOLCHAIN_ROOTDIR = C:/PROGRA~1/CODESO~1/SOURCE~2
 # endif
+ifeq ($(TOOL),gcc_arm)
+TOOLCHAIN_ROOTDIR = C:/FREESC~1/CWMCUV~1.7/CROSS_~1/ARM-NO~1
+endif
 # ifeq ($(TOOL),gcc_arm)
 # TOOLCHAIN_ROOTDIR = C:/PROGRA~1/GNUTOO~1/43F2B~1.720
 # endif

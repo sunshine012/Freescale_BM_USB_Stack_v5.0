@@ -32,6 +32,13 @@ INCLUDE += $(USB_ROOTDIR)/platform/bsp/twrk70f120m
 INCLUDE += $(USB_ROOTDIR)/platform/soc/MK70FN1M012/MK70FN1M012
 INCLUDE += $(USB_ROOTDIR)/platform/soc/MK70FN1M012
 INCLUDE += $(USB_ROOTDIR)/os/bm
+#INCLUDE += $(USB_ROOTDIR)/usb_core/include
+#INCLUDE += $(USB_ROOTDIR)/usb_core/host/include
+#INCLUDE += $(USB_ROOTDIR)/usb_core/host/include/twrk70f120m
+#INCLUDE += $(USB_ROOTDIR)/usb_core/host/sources/classes/hid
+#INCLUDE += $(USB_ROOTDIR)/usb_core/host/sources/classes/hub
+#INCLUDE += $(USB_ROOTDIR)/adapter/sources
+#INCLUDE += $(USB_ROOTDIR)/adapter/sources/bm
 endif
 ifeq ($(CONFIG),release)
 INCLUDE += $(USB_ROOTDIR)/example/host/hid/mouse/bm/make/host_hid_mouse_twrk70f120m
